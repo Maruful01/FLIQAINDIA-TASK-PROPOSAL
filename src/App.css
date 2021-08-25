@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: left;
+  color: black;
+  height: 100vh;
+
+}
+.nav-bar {
+  width: 100%;
+  background-color: bisque;
+  padding: 20px 0px;
+}
+.nav-bar ul {
+  margin-left: 3%;
+  align-items: center;
+  margin-right: 3%;
+}
+.nav-bar ul {
+      list-style: none;
+      display: inline-flex;
+}
+.nav-bar ul li {
+     margin-right: 30px;
+}
+.nav-bar ul li:hover {
+  font-weight: bold;
+}
+.nav-bar ul li:first-child {
+      margin-right: 200px;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-family: 'Nothing You Could Do', cursive;
+      font-family: 'Yellowtail', cursive;
+      font-size: 25px;
+}
+.home {
+  font-weight: bold;
+}
